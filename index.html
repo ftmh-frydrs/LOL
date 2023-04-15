@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./content/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LOL</title>
+</head>
+<body>
+   
+       <div class="place-items-center grid bg-cyan-400 w-full h-10">
+        <p class=" text-white text-lg font-extrabold items-center">Free Shipping Over $50*</p>
+        <!-- <p class="text-bold text-white justify-content-end flex align-items-end justify-end underline ">Free Shoppinf Over $50</p> -->
+       </div>
+
+    <div class="menu mt-5 lg:ml-12 flex hidden lg:flex">
+        <div class="img">
+            <img src="./content/img/1.svg" alt="">
+        </div>
+        <div class="input mt-12 mx-auto w-[90%] mb-5">
+            <input type="email" name="email"
+                class=" mt-1 mx-auto bg-white border shadow-sm border-black border-2 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block  h-[50px] w-[70%] rounded-full sm:text-sm focus:ring-1"/>
+        </div>
+        <div class="mr-12 text mt-5">
+          <div class="flex space-x-4">
+            <button class="bg-gray-100 border rounded-full w-[100px] py-1">USD$</button>
+            <button class="bg-fuchsia-200 rounded-full w-[100px]">FOR KIDS$</button>
+          </div>
+          <div class=" lg:space-x-5 space-x-5 font-extrabold lg:mt-[20px] text-xs flex mx-auto">
+            <a class=" font-extrabold" href="">Wishlist</a>
+            <a class=" font-extrabold" href="">Sign In</a>
+           <div class="flex"><img class="w-5 h-5" src="./content/img/26.webp" alt=""><a class="ml-1 mt-1" href="">Cart</a></div>
+          </div>
+        </div>
+    </div>
+
+    <div class=" flex justify-content-center align-items-center justify-center align-content-center space-x-12 font-extrabold mt-0 pt-0 text-xl hidden lg:flex">
+        <div class="max-w-lg">
+        
+            <button class="flex hover:text-pink-500" type="button" data-dropdown-toggle="dropdown">Shop <svg class="w-4 h-4 m-2" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg></button>
+        
+            <!-- Dropdown menu -->
+            <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-[100%] h-screen p-5"
+                id="dropdown">
+                <!-- <div class="px-4 py-3 w-[600px]">
+                        <span class="block text-sm">new toys</span>
+                        <span class="block text-sm font-medium text-gray-900 truncate">shop All</span>
+                    </div> -->
+                <div class="flex">
+                    <ul class="py-1 px-12 space-y-2" aria-labelledby="dropdown">
+                        <li>
+                            <a href="#" class="text-lg font-bold  text-pink-500 block px-4 py-2">New Toys</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg font-bold  text-pink-500 block px-4 py-2">shop All</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">Bratz</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">Rainbow High</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">Little Tikes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">mermaze</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg font-bold  text-gray-700 block px-4 py-2">MGA's Dreams</a>
+                        </li>
+                    </ul>
+                    <ul class="py-1 space-y-2 px-12" aria-labelledby="dropdown">
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-pink-500 block px-4 py-2">New Toys</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg font-bold   text-pink-500 block px-4 py-2">shop All</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">Bratz</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">Rainbow High</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg  font-bold  text-gray-700 block px-4 py-2">Little Tikes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg font-bold  text-gray-700 block px-4 py-2">mermaze</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-lg font-bold text-gray-700 block px-4 py-2">MGA's Dreams</a>
+                        </li>
+                    </ul>
+                    <img class="w-[40%] rounded-2xl border-black border-2 mr-5 mx-auto"
+                        src="./content/img/65.webp" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+
+        <a class="hover:text-pink-500" href="">LOL Suprise</a>
+        <a class="hover:text-pink-500" href="">Rainbow High</a>
+        <a class="hover:text-pink-500" href="">MGA's Miniverse</a>
+        <a class="hover:text-pink-500" href="">Sale</a>
+        <a class="hover:text-pink-500" href="">Blog</a>
+    </div>
+
+    <!--  -->
+    <div id="side-menu" class="fixed top-0 left-[-100%] w-full h-full z-50 bg-teal-300 p-5
+        flex flex-col space-y-5 text-white duration-300">
+        <a href="javascript:void(0)" class="text-right text-4xl" onclick="closeMenu()">&times;</a>
+        <img src="./content/img/1.svg" class="w-32 h-32 mx-auto" alt="">
+        <div class="input lg:ml-[170px] mt-12">
+            <input type="email" name="email"
+                class="mx-auto mt-1 px-3 py-2 bg-white border shadow-sm border-black border-2 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block h-[50px] w-[80%] rounded-full sm:text-sm focus:ring-1" />
+        </div>
+        <a class="text-gray-900 font-extrabold shadow1 text-2xl hover:text-pink-500" href="#">SHOP</a>
+        <a class="text-gray-900 font-extrabold shadow1 text-2xl hover:text-pink-500" href="#">LOL SURPRISE</a>
+        <a class="text-gray-900 font-extrabold shadow1 text-2xl hover:text-pink-500" href="#">RANBOW HIGH</a>
+        <a class="text-gray-900 font-extrabold shadow1 text-2xl hover:text-pink-500" href="#">MGA'S MINIVERSE </a>
+        <a class="text-gray-900 font-extrabold shadow1 text-2xl hover:text-pink-500" href="#">SALE</a>
+        <a class="text-gray-900 font-extrabold shadow1 text-2xl hover:text-pink-500" href="#">BLOG</a>
+    </div>
+    
+    <main class="p-5">
+        <!-- This is used to open the menu -->
+        <span class="cursor-pointer text-4xl lg:hidden " onclick="openMenu()">&#9776;</span>
+        <h1 class="text-xl font-light italic"></h1>
+    </main>
+    <!--  -->
+
+<div class="swiper mySwiper lg:mt-2 w-[100%] h-full">
+    <div class="border-img"></div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./content/img/2.webp" alt=""></div>
+        <div class="swiper-slide"><img src="./content/img/3.webp" alt=""></div>
+        <div class="swiper-slide"><img src="./content/img/4.webp" alt=""></div>
+        <div class="swiper-slide"><img src="./content/img/5.webp" alt=""></div>
+        <div class="swiper-slide"><img src="./content/img/6.webp" alt=""></div>
+    </div>
+    <div class="max-sm:hidden swiper-button-next border-4 border border-black rounded-full bg-pink-500 w-14 h-14 text-white mx-12"></div>
+    <div class="max-sm:hidden swiper-button-prev border-4 border border-black rounded-full bg-pink-500 w-14 h-14 text-white mx-12"></div>
+    <div class="swiper-pagination"></div>
+    <div class="border-img"></div>
+</div>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+
+
+      <h1 class="mt-[5rem] font-extrabold text-4xl flex justify-center justify-content-center align-content-center align-items-center ml-5">EXPLORE LOL SURPRISE</h1>
+    <div class="swiper mySwiper3 mx-5">
+        <div class="swiper-wrapper mt-5 ">
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-2xl hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/7.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/8.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/9.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/10.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/11.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/12.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/13.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/14.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/15.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/16.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/17.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/18.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="swiper-slide hover:border hover:border-black hover:rounded-lg hover:border-2">
+                <img class="rounded-2xl px-5" src="./content/img/19.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-col items-center justify-center mt-12 pb-5"><button class="bg-pink-600 text-white rounded-full w-[60%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+        </div>
+        <div class="swiper-button-next hidden lg:block md:block sm:block"></div>
+        <div class="swiper-button-prev hidden lg:block md:block sm:block"></div>
+    </div>
+
+    
+    <div class="feature-row__wrapper w-full h-auto mt-12 grid place-items-center" style="background-color:#f6a8da;">
+        <div class="border-img"></div>
+       <div class="grid lg:grid-cols-4 gap-12 lg:pt-8 grid-cols-2 items-center lg:pb-12 p-5 lg:pl-12">
+        <div class="lg:flex md:flex sm:flex text-sm font-extrabold">
+            <img class="w-12 h-12" src="./content/img/20.webp" alt="">
+            <p class="pt-5 px-2 shadow1">The Official LOL Surprise Store</p>
+        </div>
+        <div class="lg:flex md:flex  sm:flex text-sm font-extrabold">
+            <img class="w-12 h-12" src="./content/img/21.avif" alt="">
+            <p class="pt-5 px-2 shadow1">Free Shipping over $50</p>
+        </div>
+        <div class="lg:flex md:flex sm:flex text-sm font-extrabold">
+            <img class="w-12 h-12" src="./content/img/22.avif" alt="">
+            <p class="pt-5 px-2 shadow1">Great Customer Service</p>
+        </div>
+        <div class="lg:flex md:flex  sm:flex text-sm font-extrabold">
+            <img class="w-12 h-12" src="./content/img/23.avif" alt="">
+            <p class="pt-5 px-2 shadow1">Free gift on any order!*</p>
+        </div>
+       </div>
+    <div class="border-img"></div>
+    </div>
+
+   
+    <div class="bg-teal-300 w-[90%] h-auto mt-12 rounded-2xl mx-auto py-8 max-lg:px-24 max-md:px-20 sm:px-8 max-sm:px-5">
+        <p class="font-extrabold text-4xl text-center">FANS FAVRITS</p>
+       <div class=" grid lg:grid-cols-4  md:gap-8 gap-4 sm:grid-cols-2 grid-cols-2 md:grid-cols-2 mt-12">
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/7.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/8.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/9.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/10.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/11.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class=" hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/12.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/13.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+        <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+            <img class="rounded-2xl px-5" src="./content/img/14.webp" alt="">
+            <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+            <p class="text-center font-bold mt-3">$26.99</p>
+            <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+            <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                    class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+        </div>
+       </div>
+    </div>
+
+    <div class="bg-purple-200 w-[90%] h-auto mt-12 rounded-2xl mx-auto py-8 px-24 max-lg:px-24 max-md:px-20 sm:px-8 max-sm:px-5">
+        <p class="font-extrabold text-4xl text-center">PICKS FOR YOU</p>
+        <div class="grid lg:grid-cols-4  md:gap-8 gap-4 sm:grid-cols-2 grid-cols-2 md:grid-cols-2 mt-12">
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/27.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/28.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/29.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/30.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/31.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class=" hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/32.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/33.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+                <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+            <div class="hover:border hover:border-black hover:rounded-2xl hover:border-2 bg-white rounded-2xl">
+                <img class="rounded-2xl px-5" src="./content/img/34.webp" alt="">
+                <p class="px-2 text-center">Rainbow Highlight pink Fashion Doll- victoria Whitman</p>
+                <p class="text-center font-bold mt-3">$26.99</p>
+               <div class="flex flex-row mt-5 items-center justify-center">
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star text-pink-500"></span>
+                <span class="fa fa-star"></span>
+               </div>
+                <div class="flex flex-col items-center justify-center mt-5 pb-5"><button
+                        class="bg-pink-600 text-white rounded-full w-[80%] h-10 text-xs font-bold">ADD TO CART</button></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="border-img mt-12"></div>
+    <div class="lg:flex block md:flex justify-center justify-content-center align-items-center align-content-center lg:gap-12 max-sm:pb-5 max-sm:pt-5">
+        <div class="w-[80%] lg:w-[70%] m-12 md:m-5 md:w-[50%]  h-[160px] bg-teal-300 lg:m-8 bg-[url('./content/img/24.png')] border-2 border-black rounded-2xl shadow2 shadow1 mx-auto flex ">
+            <img src="./content/img/36.png" class="w-12 h-12 my-auto ml-2" alt="">
+            <p class=" font-extrabold text-xl pl-3 my-auto max-sm:mt-5 mx-5">SIGNUP FOR OUR EMAIL LIST AND RECEIVE 10% OFF YOUR FIRST ORDER</p>
+        </div>
+       <p class="lg:my-auto md:my-auto border-b-2 border-black pr-[20%] pb-3 mx-5 mb-5">Email Address</p>
+       <button class="bg-pink-500 rounded-full w-[20%] text-white font-extrabold h-12 lg:my-auto md:my-auto mx-5 mb-5">submit</button>
+    </div>
+    <div class="border-img"></div>
+
+    <div class="mt-12 flex lg:space-x-24 lg:ml-24 text-gray-500">
+        <ul class="px-12 max-sm:px-8">
+            <li class="font-bold mb-5 text-gray-900">Customer Care</li>
+            <li>Helpful</li>
+            <li>Blog</li>
+            <li>privacy policy</li>
+            <li>Terms of Use</li>
+            <li>Returns</li>
+            <li>shipping policy</li>
+            <li>User Generate</li>
+        </ul>
+        <ul class="px-12 max-sm:px-5">
+            <li class="font-bold mb-5 text-gray-900">FAQs</li>
+            <li>contact Us</li>
+            <li>Manuals policy</li>
+            <li>product safety</li>
+            <li>Recalls</li>
+            <li>Warranty</li>
+            </ul>
+        <ul class="px-12 max-sm:px-5">
+            <li class="font-bold mb-5 text-gray-900">Follow Us</li>
+            <li>Facebook</li>
+            <li>twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="mt-5 grid lg:grid-cols-9 md:grid-cols-6 sm:grid-cols-4 grid-cols-3 ml-12">
+            <!-- <img class="w-16 h-16 hover:hidden" src="./content/img/55.avif" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/38.avif" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/39.webp" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/40.webp" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/41.webp" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/42.webp" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/43.avif" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/44.webp" alt="">
+                <img class="w-16 h-16 hover:hidden" src="./content/img/45.webp" alt=""> -->
+            <img class="w-16 h-16 my-2" src="./content/img/47.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/48.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/49.png" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/50.webp" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/51.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/52.webp" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/53.webp" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/54.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/56.webp" alt="">
+        </div>
+        
+        <div class="grid lg:grid-cols-7 md:grid-cols-5 ml-12 sm:grid-cols-4 grid-cols-3 mt-12">
+            <img class="w-16 h-16 my-2" src="./content/img/57.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/58.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/59.webp" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/60.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/61.webp" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/62.avif" alt="">
+            <img class="w-16 h-16 my-2" src="./content/img/63.avif" alt="">
+        </div>
+    </div>
+
+    <hr class="mt-12">
+        <p class="lg:ml-24 mt-12 ml-5">© MGA Entertainment, Inc. All Rights Reserved <br> Cookie Preferences</p>
+    <img class=" w-12 h-12 mx-auto lg:mt-[-50px]" src="./content/img/64.webp" alt="">
+    <!-- <p class=" mx-auto h-auto w-[200px] rounded-t-lg mt-5 text-xs mb-2">INDIVIDUAL RIGHTS <br><span class="bg-teal-500 text-white mx-auto p-1 rounded-b-lg ">powered by trutArc</span></p> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./content/js/script.js"></script>
+</body>
+</html>
