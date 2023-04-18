@@ -47,7 +47,7 @@
                 </svg></button>
         
             <!-- Dropdown menu -->
-            <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-[100%] h-screen p-5"
+            <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4 w-[100%] h-auto p-5"
                 id="dropdown">
                 <!-- <div class="px-4 py-3 w-[600px]">
                         <span class="block text-sm">new toys</span>
@@ -542,17 +542,11 @@
         </ul>
     </div>
 
-    <div>
-        <div class="mt-5 grid lg:grid-cols-9 md:grid-cols-6 sm:grid-cols-4 grid-cols-3 ml-12">
-            <!-- <img class="w-16 h-16 hover:hidden" src="./content/img/55.avif" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/38.avif" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/39.webp" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/40.webp" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/41.webp" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/42.webp" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/43.avif" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/44.webp" alt="">
-                <img class="w-16 h-16 hover:hidden" src="./content/img/45.webp" alt=""> -->
+    
+       
+       <div class="hidden lg:block">
+        <div class="mt-5 grid lg:grid-cols-9 md:grid-cols-6 sm:grid-cols-4 grid-cols-3 ml-12 mt-12">
+        
             <img class="w-16 h-16 my-2" src="./content/img/47.avif" alt="">
             <img class="w-16 h-16 my-2" src="./content/img/48.avif" alt="">
             <img class="w-16 h-16 my-2" src="./content/img/49.png" alt="">
@@ -573,7 +567,94 @@
             <img class="w-16 h-16 my-2" src="./content/img/62.avif" alt="">
             <img class="w-16 h-16 my-2" src="./content/img/63.avif" alt="">
         </div>
+       </div>
+    
+
+    <!-- <div class="lg:hidden mt-12 ml-12">
+        <input type="checkbox" id="sortbox" class="hidden">
+        <label for="sortbox" class="flex items-center space-x-1 cursor-pointer">
+            <p class="text-lg text-center font-extrabold flex justify-center">Sort By</p>
+            <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </label>
+    
+        <div id="sortboxmenu"
+            class="opacity-0 transition delay-75 ease-in-out z-10">
+            <ul class="flex grid lg:grid-cols-7 md:grid-cols-5 ml-12 sm:grid-cols-4 grid-cols-3 mt-12 h-auto">
+               
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/47.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/48.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/49.png" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/50.webp" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/51.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/52.webp" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/53.webp" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/54.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/56.webp" alt=""></li>
+            </ul>
+            <ul class="flex grid lg:grid-cols-7 md:grid-cols-5 ml-12 sm:grid-cols-4 grid-cols-3 mt-12 h-auto">
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/57.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/58.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/59.webp" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/60.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/61.webp" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/62.avif" alt=""></li>
+                <li class="block"><img class="w-16 h-16 my-2" src="./content/img/63.avif" alt=""></li>
+            </ul>
+        </div>
     </div>
+ -->
+
+
+<div class="flex flex-row justify-center h-auto pt-4 lg:hidden justify-self-center">
+    <div class="flex-none p-2 w-[100%]">
+        <button onclick="showDropdownOptions()"
+            class="flex flex-row justify-between px-2 py-2 text-gray-700 ">
+            <span class="select-none text-2xl font-extrabold">BRANDS</span>
+
+            <svg id="arrow-down" class="hidden w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+            </svg>
+            <svg id="arrow-up" class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                    clip-rule="evenodd" />
+            </svg>
+        </button>
+        <div id="options" class="hidden w-[100%] py-2 mt-2">
+        <ul class="flex grid lg:grid-cols-7 md:grid-cols-5 ml-12 sm:grid-cols-4 grid-cols-3 mt-12 h-auto">
+        
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/47.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/48.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/49.png" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/50.webp" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/51.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/52.webp" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/53.webp" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/54.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/56.webp" alt=""></li>
+        </ul>
+        <ul class="flex grid lg:grid-cols-7 md:grid-cols-5 ml-12 sm:grid-cols-4 grid-cols-3 mt-12 h-auto">
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/57.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/58.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/59.webp" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/60.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/61.webp" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/62.avif" alt=""></li>
+            <li class="block"><img class="w-16 h-16 my-2" src="./content/img/63.avif" alt=""></li>
+        </ul>
+        </div>
+    </div>
+</div>
+<script>
+      
+</script>
+
+
 
     <hr class="mt-12">
         <p class="lg:ml-24 mt-12 ml-5">© MGA Entertainment, Inc. All Rights Reserved <br> Cookie Preferences</p>

@@ -24,3 +24,7 @@
  .shadow2{
     box-shadow: 4px 5px #000, 6px 8px #00000040;
  }
+
+  #sortbox:checked~#sortboxmenu {
+      opacity: 1;
+  }

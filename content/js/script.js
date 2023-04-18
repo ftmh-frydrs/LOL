@@ -49,3 +49,9 @@ var sideMenu = document.getElementById('side-menu');
             sideMenu.classList.remove('left-0');
             sideMenu.classList.add('left-[-100%]');
         }        
+
+function showDropdownOptions() {
+            document.getElementById("options").classList.toggle("hidden");
+            document.getElementById("arrow-up").classList.toggle("hidden");
+            document.getElementById("arrow-down").classList.toggle("hidden");
+        }
